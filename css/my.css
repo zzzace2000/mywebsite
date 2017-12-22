@@ -1,0 +1,60 @@
+.my-head {
+	height: 190px;
+    border: 3px solid white;
+    /* box-shadow: #AAA 0px 0px 4px 0px; */
+    float: left
+}
+
+.intro-blocks {
+	font-size: 26px;
+    font-weight: 400;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/hart_house.jpg) no-repeat center center;
+    background-size: cover;
+    height: 450px;
+    min-width: 100px;
+    box-shadow:inset 0 0 0 2000px rgba(100,100,100,0.2);
+}
+
+.intro-message {
+	position: absolute;
+    left: 20%;
+    width: 60%;
+    /*position: relative;*/
+    padding-top: 10%;
+    /*padding-bottom: 20%;*/
+}
+
+.text-shaddow {
+    text-shadow: 2px 2px #000000;
+}
+
+.pp {
+	margin-top: 30px;
+    text-align: center;
+}
+
+.past-exp-text {
+	font-size:18px; 
+	font-weight:400;
+}
+
+.ordered-list ul {
+    list-style: disc;    
+    list-style-type: disc;    
+    margin: 0 0 2.25em 0;
+    padding-left: 1em;
+}
+
+.ordered-list ul li {
+    list-style-type: disc;
+    display: list-item;
+}

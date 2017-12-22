@@ -1,0 +1,18 @@
+---
+layout: default
+img: ipad.png
+category: 
+title: Education
+description: |
+---
+  <ul>
+  <li>
+    <p>Conduct interdisciplinary research in computer science, biology and computational linguistic with Prof. Pengyu Hong</p>
+  </li>
+  <li>
+    <p>Develop statistical machine learning model and engineer neural network to solve some challenging problems in protein structure understanding in biology and discourse parsing in linguistic</p>
+  </li>
+  <li>
+    <p>Selected as 16’-17’ Jerome A. Schiff Undergraduate Fellows for my innovative <a href="http://www.cs.brandeis.edu/~weschin/Schiff-Proposal.pdf">research</a> in machine learning and biology</p>
+  </li>
+  </ul>

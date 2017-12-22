@@ -1,0 +1,43 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://yoursite.com
+title: Chun-Hao Chang (Kingsley)
+email: kingsley.chang@mail.utoronto.ca
+author: Kingsley
+description: > # "Write an awesome description for your new site here. 
+  I am Chun-Hao Chang (Kingsley). I currently studied master at Computer Science
+  at University of Toronto in the professor Anna Goldenberg's lab. I am interested
+  in Machine Learning and its application in genomics and healthcare. I previously
+  studied in National Taiwan University with double major in Electrical Engineering
+  and Life Science
+copyright: 'Copyright &copy; 2017. Last updated: Nov.13.2017'
+credits: >
+  
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  # - title: twitter
+  #   url: https://twitter.com/zzzace2000
+  #   fa: twitter
+  # - title: github
+  #   url: https://github.com/IronSummitMedia/startbootstrap
+  #   fa: github
+  - title: linkedin
+    url: https://www.linkedin.com/in/kingsley-chun-hao-chang-486a41b5/
+    fa: linkedin
+  - title: CV
+    url: documents/cv-full.pdf
+    fa: list
