@@ -7,12 +7,12 @@ title: Chun-Hao Chang (Kingsley)
 email: kingsley.chang@mail.utoronto.ca
 author: Kingsley
 description: > # "Write an awesome description for your new site here. 
-  I am Chun-Hao Chang (Kingsley). I currently studied master at Computer Science
+  I am Chun-Hao Chang (Kingsley). I currently studied PhD at Computer Science
   at University of Toronto in the professor Anna Goldenberg's lab. I am interested
-  in Machine Learning and its application in genomics and healthcare. I previously
+  in Machine Learning and its application in healthcare. I previously
   studied in National Taiwan University with double major in Electrical Engineering
   and Life Science
-copyright: 'Copyright &copy; 2017. Last updated: Nov.13.2017'
+copyright: 'Copyright &copy; 2019. Last updated: Jan.28.2019'
 credits: >
   
 
@@ -40,4 +40,7 @@ social:
     fa: linkedin
   - title: CV
     url: documents/cv-full.pdf
+    fa: list
+  - title: Scholar
+    url: https://scholar.google.ca/citations?hl=en&view_op=list_works&gmla=AJsN-F5dvE7AXD3qrlpQFI1krR4muisY4v8_pqwOGoqzYpKprVRqBd-riKh4vroUmHYacczTx0ZIvbm3e0cQLK4Ijh6fdREbQw&user=p7FEdokAAAAJ
     fa: list

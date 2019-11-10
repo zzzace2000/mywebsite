@@ -3,67 +3,72 @@
 <div class="content-section-a">
     <div class="container">
 
-        <h2 class="pub_title">Publications</h2>
+        <h2 class="pub_title">Selected Publications</h2>
   <div id="pubs">
 
     <div class="pubwrap">
-      <div class="row">
-        <!-- <div class="col-md-6">
-          <div class="pubimg">
-            <img src="./Yen-Chen Lin Website_files/adversarial_attack_RL.gif">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="pubimg">
+              <img src="./img/fido_fig.png">
+            </div>
           </div>
-        </div> -->
-        <div class="col-md-12">
-          <div class="pub">
-            <div class="pubt">Dropout Feature Ranking for Deep Learning Models</div>
-            <div class="pubd">Deep neural networks are a promising technology achieving state-of-the-art results in biological and healthcare domains. Unfortunately, DNNs are notorious for their non-interpretability. Clinicians are averse to black boxes and thus interpretability is paramount to broadly adopting this technology. We aim to close this gap by proposing a new general feature ranking method for deep learning. We show that our method outperforms LASSO, Elastic Net, Deep Feature Selection and various heuristics on a simulated dataset. We also compare our method in a multivariate clinical time-series dataset and demonstrate our ranking outperforms all methods in Recurrent Neural Network setting. Finally, we apply our feature ranking to the Variational Autoencoder recently proposed to predict drug response in cell lines and show that it identifies meaningful genes corresponding to the drug response.</div>
-            <div class="puba"><u>Chun-Hao Chang</u>, Ladislav Rampasek, Anna Goldenberg</div>
-            <div class="pubv">2017 NIPS MLCB workshop</div>
-            <div class="publ">
-              <ul>
-              	<!-- <li>Coming soon</li> -->
-                <li><a href="documents/DFR.pdf">Paper</a></li>
-              </ul>
+          <div class="col-md-8">
+            <div class="pub">
+              <div class="pubt">Explaining Image Classifiers by Counterfactual Generation</div>
+              <div class="pubd"></div>
+              <div class="puba"><u>Chun-Hao Chang</u>, Elliot Creager, Anna Goldenberg, David Duvenaud</div>
+              <div class="pubv">2019 ICLR Poster</div>
+              <div class="publ">
+                <ul>
+                  <li><a href="https://arxiv.org/abs/1807.08024">Paper</a></li>
+                  <li><a href="https://github.com/zzzace2000/FIDO-saliency">Code</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+
+    <div class="pubwrap">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="pubimg">
+              <img src="./img/dqn_pipeline.png">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="pub">
+              <div class="pubt">Dynamic Measurement Scheduling for Adverse Event Forecasting using Deep RL</div>
+              <div class="pubd"></div>
+              <div class="puba"><u>Chun-Hao Chang*</u>, Mingjie Mai*, Anna Goldenberg</div>
+              <div class="pubv">2018 NIPS MLHC Workshop; Submitted to 2019 ICML</div>
+              <div class="publ">
+                <ul>
+                  <li><a href="https://arxiv.org/abs/1901.09699">Paper</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div class="pubwrap">
       <div class="row">
-        <!-- <div class="col-md-6">
+        <div class="col-md-4">
           <div class="pubimg">
-            <img src="./Yen-Chen Lin Website_files/adversarial_attack_RL.gif">
+            <img src="./img/DFR_img.png">
           </div>
-        </div> -->
-        <div class="col-md-12">
+        </div>
+        <div class="col-md-8">
           <div class="pub">
-            <div class="pubt">Interpreting Neural Network Classifications with Variational Dropout Saliency Masks</div>
-            <div class="pubd">Deep neural networks are effective at classification across many domains, but they
-are also opaque in the sense of being seen as “black boxes” even when the training
-data and model architecture are available. Saliency maps are a tool for interpreting
-neural network classification that, given a particular input example and output class,
-score the relevance of each input dimension to the resulting classification. Recent
-work defined salient inputs as those yielding the greatest change in the classification
-output when replaced with some reference value; this value is chosen heuristically
-(e.g., background color, Gaussian noise, or blurred version of the input) and thus
-biases the saliency computation. We generalize this approach by extending the
-notions of ‘replacement’ and ‘reference’: first we cast the input replacement in
-a dropout framework and use variational inference to learn a distribution over
-dropped-out (replaced) inputs from the data; then we express the reference value
-as the output of a generative model, which can be learned from data to mitigate
-the effect of the reference value biasing the saliency map. We then propose a new
-model-agnostic saliency map that uses both extensions in tandem. We show the
-resulting saliency maps for a digit classification network pre-trained on MNIST and
-compare our results against other methods both qualitatively and quantitatively.
-</div>
-            <div class="puba"><u>Chun-Hao Chang</u>, Elliot Creager, Anna Goldenberg, David Duvenaud</div>
-            <div class="pubv"> 2017 NIPS Interpreting, Explaining and Visualizing Deep Learning Workshop</div>
+            <div class="pubt">Dropout Feature Ranking for Deep Learning Models</div>
+            <div class="puba"><u>Chun-Hao Chang</u>, Ladislav Rampasek, Anna Goldenberg</div>
+            <div class="pubv">2017 NIPS MLCB workshop</div>
             <div class="publ">
               <ul>
-              	<!-- <li>Coming soon</li> -->
-                <li><a href="documents/interpreting-neural-network-camera-ready.pdf">Paper</a></li>
+                <li><a href="https://arxiv.org/abs/1712.08645">Paper</a></li>
+                <li><a href="https://github.com/zzzace2000/dropout-feature-ranking">Code</a></li>
               </ul>
             </div>
           </div>
@@ -77,7 +82,7 @@ compare our results against other methods both qualitatively and quantitatively.
     <h2 class="pub_title">Work Experiences</h2>
     <div class="row">
 
-      <div class="col-md-1">
+      <!-- <div class="col-md-1">
         <div class="pp">
           <a href="">
             <img src="" class="img-circle imgb">
@@ -86,25 +91,37 @@ compare our results against other methods both qualitatively and quantitatively.
           <div class="ppd">
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="col-md-5">
+      <div class="col-md-4">
         <div class="pp">
-          <a href="https://tripnotice.com/">
-            <img src="img/tripnotice.jpg" class="img-circle imgb">
-          </a>
+          <img src="img/File_Facebook_logo.png" class="img-circle imgb">
           <div class="ppt">Software Engineer Intern</div>
           <div class="ppd">
-            I interned from 2015 to 2016 in startup company <a href="https://tripnotice.com/">Tripnotice</a>. I built Android app with 500 active daily user, 30,000 downloads and rated as top 5 best travel app in local Taipei newspaper. 
-			Besides, I improved hotel recommendation system and constructed hotel booking API with Amadeus.
+            I interned in the Ads Ranking team of Facebook UK during 2018 summer. 
+            My main work is to model counterfactual inference of the ads data to measure lift effects of ads exposure.
+            I investigated various causal approach such as nearest neighbor, causal trees and multi-task learning.
           </div>
         </div>
       </div>
 
-      <div class="col-md-5">
+      <div class="col-md-4">
+        <div class="pp">
+          <a href="https://tripnotice.com/">
+            <img src="img/tripnotice.jpg" class="img-circle imgb" style="height: 256px">
+          </a>
+          <div class="ppt">Software Engineer</div>
+          <div class="ppd">
+            I interned from 2015 to 2016 in startup company <a href="https://tripnotice.com/">Tripnotice</a>. I built Android app with 500 active daily user, 30,000 downloads and rated as top 5 best travel app in local Taipei newspaper. 
+            Besides, I improved hotel recommendation system and constructed hotel booking API with Amadeus.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
         <div class="pp">
           <a href="http://www.forestapp.cc/">
-            <img src="img/NTU.png" class="img-circle imgb">
+            <img src="img/NTU.png" class="img-circle imgb" style="height: 256px">
           </a>
           <div class="ppt">Android Developer</div>
           <div class="ppd">
@@ -123,7 +140,6 @@ compare our results against other methods both qualitatively and quantitatively.
           </div>
         </div>
       </div>
-
     </div>
 
   <hr class="soft">
